@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 body{
     font-family: 'Noto Sans JP', sans-serif;
+    margin: 0px;
 }
 
 hr{
@@ -8,6 +9,8 @@ hr{
 }
 :root{
     --primary-color: #7c3ae0;
+    --off-white:#E0E7FF;
+    --dark-gray: #A78BFA;
 }
 
 /**container**/
@@ -54,6 +57,7 @@ hr{
     background-color: var(--primary-color);
     color:white;
     padding: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 .navigation .nav-brand{
     font-weight: bold;
@@ -68,6 +72,59 @@ hr{
 
 .navigation .link-active{
     font-weight: bold;
+}
+/**header**/
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display:block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    padding-top: 1rem;
+    color:var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted{
+    color:var(--primary-color);
+}
+
+
+/** section**/
+
+.section{
+    padding: 2rem;
+}
+.section h3{
+    text-align: center;
+    
+
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+/**footers **/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem ;
+    text-align:center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color:white;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
 
 

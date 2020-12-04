@@ -61,9 +61,9 @@
 <h2>@nav</h2>
     <nav class="navigation">
         <div class="nav-brand">I am a brand</div>
-        <ul class="list-non-bullet">
+        <ul class="list-non-bullet nav-pills">
         <li class="list-item-inline">
-            <a class="link" href="/">home</a>
+            <a class="link link-active" href="/">home</a>
         </li>
         <li class="list-item-inline">
             <a class="link"  href="/">products</a>
@@ -76,9 +76,9 @@
 <hr>
 
 <h2>@Header</h2>
-<header>
-    <img src="images/pic.svg"/>
-    <h1>heading inside hero</h1>
+<header class="hero">
+    <img class="hero-img" src="images/pic.svg"/>
+    <h1 class="hero-heading">adarsh balika the <span class="heading-inverted">web developer</span> </h1>
     From undraw we can download picture for website.Select color From
     tailwindcss.
     You can practice html from codepen.<br>
@@ -88,23 +88,31 @@
 
 <hr>
 <h2>@Section</h2>
-<section> 
+<section class="section"> 
+    <div class="container container-center">
     <h3>white section</h3>
     <p>This will have white background</p>
+</div>
+
 </section>
-<section>
-    <h3>off white section</h3>
+<section class="section ow">
+    <div class="container container-center">
+   
+
+    <h3 >off white section</h3>
     <p>This will have grey background</p>
+</div>
 </section>
 <hr>
+
 <h2>@footer</h2>
-<footer>
+<footer class="footer">
     <!--Can't use h1,h2 in footer -->
-    <div>Some small heading inside footer</div>
-    <ul>
-        <li>Socialone</li>
-        <li>SocialTwo</li>
-        <li>SocialThree</li>
+    <div class="footer-header">Some small heading inside footer</div>
+    <ul class="social-links list-non-bullet">
+        <li class="list-item-inline"><a class="link" href="/">Socialone</a></li>
+        <li class="list-item-inline"><a class="link" href="/">SocialTwo</a></li>
+        <li class="list-item-inline"><a class="link" href="/">SocialThree</a></li>
     </ul>
 
 </footer>
